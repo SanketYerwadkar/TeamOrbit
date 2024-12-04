@@ -1,0 +1,48 @@
+import NextAuth from 'next-auth';
+import { filteredProviders } from '@app/utils/check-provider-env-vars';
+import { GauzyAdapter, jwtCallback, ProviderEnum, signInCallback } from '@app/services/server/requests/OAuth';
+import { NextRequest } from 'next/server';
+import { IS_DESKTOP_APP } from '@app/constants';
+
+export const { handlers, signIn, signOut, auth } = NextAuth((request) => ({
+	providers: filteredProviders,
+	trustHost: IS_DESKTOP_APP,
+	adapter: GauzyAdapter(request as NextRequest),
+	session: { strategy: 'jwt' },
+	callbacks: {
+		async signIn({ account }) {
+			if (account) {
+				const { provider, access_token } = account;
+				if (access_token) {
+					await signInCallback(provider as ProviderEnum, access_token);
+					return true;
+				}
+				return true;
+			}
+			return false;
+		},
+
+		async jwt({ token, user, trigger, session, account }) {
+			if (user && account) {
+				const { access_token, provider } = account;
+				if (access_token) {
+					token.authCookie = await jwtCallback(provider as ProviderEnum, access_token);
+				}
+			}
+
+			if (trigger === 'update' && session) {
+				token = { ...token, authCookie: session };
+			}
+
+			return token;
+		},
+		session({ session, token }) {
+			session.user = token.authCookie as any;
+			return session;
+		}
+	},
+	pages: {
+		error: '/auth/error',
+		newUser: '/auth/social-welcome'
+	}
+}));
