@@ -38,4 +38,4 @@ function ErrorPage({ error, reset }: { error: Error & { digest?: string }; reset
 	);
 }
 
-export default ErrorPage;
+export default ErrorPage ;
