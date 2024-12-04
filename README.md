@@ -1,13 +1,8 @@
-# Ever Teams Platform
-
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ever-co/ever-teams)
-[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/gauzy)
-[![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/ever-co/ever-gauzy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/evereq?utm_source=github&utm_medium=button&utm_term=evereq&utm_campaign=github)
+# TeamOrbit Platform
 
 ## ⭐️ What is it?
 
-[Ever® Teams™](https://app.ever.team) - Open Work and Project Management Platform.
+[](https://app.ever.team) - Open Work and Project Management Platform.
 
 ![web](https://docs.ever.team/web/overview.png)
 
@@ -41,10 +36,6 @@ Below is a list of the most important planned features:
 
 ![mobile](https://docs.ever.team/mobile/overview.png)
 
-### Browser Extension
-
-![extension](https://docs.ever.team/extension/overview.png)
-
 Note: Currently WIP, the screenshot is just a temporary picture :)
 
 </details>
@@ -53,19 +44,7 @@ Note: Currently WIP, the screenshot is just a temporary picture :)
 
 ![Alt](https://repobeats.axiom.co/api/embed/7dc568c25f12884ca41e421ad2ae0b6dc1e576b1.svg 'Repobeats analytics image')
 
-## 🔗 Links
-
--   **<https://app.ever.team>** - Ever® Teams™ Platform Web Application.
--   **<https://demo.ever.team>** - Ever® Teams™ Platform Demo Web Application.
--   **<https://stage.ever.team>** - Ever® Teams™ Platform Stage / Test Web Application.
--   **<https://docs.ever.team>** - Ever® Teams™ Platform Documentation (WIP).
--   **<https://ever.team>** - Check more information about the Ever® Teams™ platform at the official website (WIP).
--   **<https://gauzy.co>** - Check more information about the Ever® Gauzy™ Platform at the official website.
--   **<https://ever.co>** - Get more information about our company products.
-
 ## ⚡️ Our Open Platforms
-
-Ever® Teams™ Platform (<https://app.ever.team>) is built on top of our Business Management Platform (ERP/CRM/HRM) - Ever® Gauzy™ Platform (<https://gauzy.co>), which itself is a part of our larger Open Platform for On-Demand and Sharing Economies - Ever®. You can get more information about all our products at <https://ever.co>.
 
 ## 🧱 Technology Stack and Requirements
 
@@ -257,23 +236,6 @@ You can also view a full list of our [contributors tracked by Github](https://gi
      <img src=".github/vercel-logo.svg" alt="Powered by Vercel" />
  </a>
 </p>
-
-## ©️ Copyright
-
-#### Copyright © 2022-present, Ever Co. LTD. All rights reserved
-
----
-
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=ever-co.ever-teams-platform)
-[![Circle CI](https://circleci.com/gh/ever-co/ever-teams.svg?style=svg)](https://circleci.com/gh/ever-co/ever-teams)
-[![codecov](https://codecov.io/gh/ever-co/ever-teams/branch/master/graph/badge.svg)](https://codecov.io/gh/ever-co/ever-teams)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8c46f9eb9df64aa9859dea4d572059ac)](https://www.codacy.com/gh/ever-co/ever-teams/dashboard?utm_source=github.com&utm_medium=referral&utm_content=ever-co/ever-teams&utm_campaign=Badge_Grade)
-[![DeepScan grade](https://deepscan.io/api/teams/3293/projects/25855/branches/814579/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3293&pid=25855&bid=814579)
-[![Known Vulnerabilities](https://snyk.io/test/github/ever-co/ever-teams/badge.svg)](https://snyk.io/test/github/ever-co/ever-teams)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/ever-co/ever-teams.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ever-co/ever-teams/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/ever-co/ever-teams.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ever-co/ever-teams/context:javascript)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-teams.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-teams?ref=badge_shield)
-[![Crowdin](https://badges.crowdin.net/e/1d2b3405d65a56ec116d0984fd579cc9/localized.svg)](https://ever.crowdin.com/ever-teams)
 
 ## 🔥 P.S
 
