@@ -1,3 +1,4 @@
+{% raw %}
 ---
 destinationDir: app/navigators
 patch:
@@ -18,8 +19,9 @@ export type <%= props.pascalCaseName %>NavigatorParamList = {
 const Stack = createStackNavigator<<%= props.pascalCaseName %>NavigatorParamList>()
 export const <%= props.pascalCaseName %>Navigator = () => {
   return (
-    <Stack.Navigator screenOptions={{ cardStyle: { backgroundColor: "transparent" }, headerShown: false, }}>
+    <Stack.Navigator screenOptions={{ cardStyle: { backgroundColor: "transparent" }, headerShown: false }}>
       <Stack.Screen name="Demo" component={WelcomeScreen} />
     </Stack.Navigator>
   )
 }
+{% endraw %}
