@@ -1,0 +1,14 @@
+<svg width="11" height="4" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <defs>
+  <clipPath id="clip0_0_1">
+   <rect width="11" height="4" fill="white" id="svg_1"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" clip-path="url(#clip0_0_1)" id="svg_3">
+   <path stroke="null" fill-rule="evenodd" clip-rule="evenodd" d="m5.22983,2.26734l0.75759,1.23792l-0.75803,-0.20258l-0.75759,0.20258l0.75803,-1.23792z" fill="#1EED4B" id="svg_4"/>
+   <path stroke="null" fill-rule="evenodd" clip-rule="evenodd" d="m3.55643,2.47193l0.59512,1.03333l0.40148,-0.69795l-0.35458,-0.61551l0.51638,-0.89521l1.03275,0l0.5125,0.89521l-0.35415,0.61551l0.40148,0.69752l0.59513,-1.0329c0.10276,-0.17284 0.10276,-0.38829 0,-0.56113l-0.59513,-1.03247c-0.09783,-0.17493 -0.28329,-0.28211 -0.48324,-0.27926l-1.18981,0c-0.1998,-0.00269 -0.38505,0.10446 -0.48281,0.27926l-0.59512,1.03334c-0.10243,0.17262 -0.10243,0.38763 0,0.56026z" fill="#E83F25" fill-opacity="0.97" id="svg_6"/>
+  </g>
+ </g>
+</svg>
