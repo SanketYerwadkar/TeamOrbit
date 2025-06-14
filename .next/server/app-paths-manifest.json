@@ -1,6 +1,19 @@
 {
-  "/api/[[...route]]/route": "app/api/[[...route]]/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/video-call/page": "app/video-call/page.js",
+  "/api/[[...route]]/route": "app/api/[[...route]]/route.js",
   "/(dashboard)/page": "app/(dashboard)/page.js",
-  "/(dashboard)/workspaces/[workspaceId]/page": "app/(dashboard)/workspaces/[workspaceId]/page.js"
+  "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js",
+  "/(auth)/sign-up/page": "app/(auth)/sign-up/page.js",
+  "/(dashboard)/workspaces/[workspaceId]/page": "app/(dashboard)/workspaces/[workspaceId]/page.js",
+  "/(dashboard)/workspaces/[workspaceId]/tasks/page": "app/(dashboard)/workspaces/[workspaceId]/tasks/page.js",
+  "/(dashboard)/workspaces/[workspaceId]/projects/[projectId]/page": "app/(dashboard)/workspaces/[workspaceId]/projects/[projectId]/page.js",
+  "/(dashboard)/workspaces/[workspaceId]/tasks/[taskId]/page": "app/(dashboard)/workspaces/[workspaceId]/tasks/[taskId]/page.js",
+  "/(standalone)/workspaces/[workspaceId]/members/page": "app/(standalone)/workspaces/[workspaceId]/members/page.js",
+  "/(standalone)/workspaces/[workspaceId]/join/[inviteCode]/page": "app/(standalone)/workspaces/[workspaceId]/join/[inviteCode]/page.js",
+  "/(standalone)/workspaces/[workspaceId]/file-share/page": "app/(standalone)/workspaces/[workspaceId]/file-share/page.js",
+  "/(standalone)/workspaces/[workspaceId]/projects/[projectId]/settings/page": "app/(standalone)/workspaces/[workspaceId]/projects/[projectId]/settings/page.js",
+  "/(standalone)/workspaces/[workspaceId]/settings/page": "app/(standalone)/workspaces/[workspaceId]/settings/page.js",
+  "/(standalone)/workspaces/create/page": "app/(standalone)/workspaces/create/page.js"
 }

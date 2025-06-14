@@ -1,4 +1,4 @@
-// File: C:\Users\sanke\OneDrive\Desktop\teamorbit\src\app\(dashboard)\workspaces\[workspaceId]\page.tsx
+// File: C:\Users\sanke\Desktop\ezyZip\src\app\(dashboard)\workspaces\[workspaceId]\page.tsx
 import * as entry from '../../../../../../src/app/(dashboard)/workspaces/[workspaceId]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

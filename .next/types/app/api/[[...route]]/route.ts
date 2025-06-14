@@ -1,4 +1,4 @@
-// File: C:\Users\sanke\OneDrive\Desktop\teamorbit\src\app\api\[[...route]]\route.ts
+// File: C:\Users\sanke\Desktop\ezyZip\src\app\api\[[...route]]\route.ts
 import * as entry from '../../../../../src/app/api/[[...route]]/route.js'
 import type { NextRequest } from 'next/server.js'
 
